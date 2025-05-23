@@ -1,0 +1,15 @@
+npm install
+npm start
+{
+  "name": "takbet-crash-bot",
+  "version": "1.1.0",
+  "description": "Takbet crash monitor bot with Telegram alerts for crash > 4",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.3.8",
+    "axios": "^1.6.8"
+  }
+}
