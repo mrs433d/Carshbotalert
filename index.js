@@ -2,8 +2,8 @@
 const puppeteer = require('puppeteer');
 const axios = require('axios');
 
-const TELEGRAM_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'; // <-- توکن ربات
-const TELEGRAM_CHAT_ID = 'YOUR_CHAT_ID'; // <-- Chat ID عددی
+const TELEGRAM_TOKEN = '7684954407:AAGFv-VuVedDNhZcgbhgCjVgEXIAkdj_b1k'; // <-- توکن ربات
+const TELEGRAM_CHAT_ID = '-1002570608346'; // <-- Chat ID عددی
 
 async function sendToTelegram(message) {
   const url = `https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage`;
